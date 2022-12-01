@@ -1,4 +1,4 @@
-# ## BMI Calculator
+# BMI Calculator
 #
 # # UPDATE
 # We've moved away from repl.it for coding exercises.
