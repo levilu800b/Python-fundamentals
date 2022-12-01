@@ -39,7 +39,9 @@
 
 # a = float(123)
 # print(type(a))
+
 # print(70 + float("100.5"))
+
 # print(str(70) + str(100))
 
 # Math operation
@@ -58,3 +60,47 @@
 # Division - /
 # Addition - +
 # Subtraction - -
+
+# print(3 * 3 + 3 / 3 - 3)
+
+# print(3 * (3 + 3) / 3 - 3)
+
+# number manipulation
+
+# round
+# print(round(8 / 3, 2))
+
+# floor
+# print(8 // 3)
+
+# result = 4 / 2
+# result /= 2
+# print(result)
+
+# score = 0
+
+# user score a point
+# score += 1
+# print(score)
+
+# F strings
+
+# score = 0
+# height = 1.8
+# isWinning = True
+
+# print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
+# f-strings are short for formatted string like the following
+# you can use the formatted string by two diffrent ways
+# 1
+# name = "John Smith"
+# print(f"Hello, {name}")		# output = Hello, John Smith
+
+# 2
+# name = "John Smith"
+# print("Hello, {}".format(name))		# output = Hello, John Smith
+
+print(6 + 4 / 2 - (1 * 2))
+
+a = int("5") / int(2.7)
+print(type(a))
