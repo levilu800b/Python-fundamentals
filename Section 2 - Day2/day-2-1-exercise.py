@@ -61,7 +61,15 @@ two_digit_number = input("Type a two digit number: ")
 
 ####################################
 # Write your code below this line 👇
+
+# get the first digit
 first_digit = two_digit_number[0]
+
+# get the second digit
 second_digit = two_digit_number[1]
+
+# convert the string to int
 result = int(first_digit) + int(second_digit)
+
+# print the result
 print(result)
