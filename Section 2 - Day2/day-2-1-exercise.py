@@ -1,4 +1,4 @@
-# ## Data Types
+# Data Types
 #
 # # UPDATE
 # We've moved away from repl.it for coding exercises.
