@@ -87,3 +87,103 @@
 #
 # Test Your Code Check your code is doing what it is supposed to. When you're happy with your code, click submit to
 # check your solution.
+
+# 🚨 Don't change the code below 👇
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+
+# Solution1
+# 1. Create a variable called combined_string
+# and set it equal to lower case version of name1 + name2
+# combined_string = name1.lower() + name2.lower()
+
+# 2. Create a variable called t and set it equal to the number of times the letter "t" occurs in combined_string
+# t = combined_string.count("t")
+
+# 3. Create a variable called r and set it equal to the number of times the letter "r" occurs in combined_string
+# r = combined_string.count("r")
+
+# 4. Create a variable called u and set it equal to the number of times the letter "u" occurs in combined_string
+# u = combined_string.count("u")
+
+# 5. Create a variable called e and set it equal to the number of times the letter "e" occurs in combined_string
+# e = combined_string.count("e")
+
+# 6. Create a variable called true and set it equal to the sum of t, r, u, e
+# true = t + r + u + e
+
+# 7. Create a variable called l and set it equal to the number of times the letter "l" occurs in combined_string
+# l = combined_string.count("l")
+
+# 8. Create a variable called o and set it equal to the number of times the letter "o" occurs in combined_string
+# o = combined_string.count("o")
+
+# 9. Create a variable called v and set it equal to the number of times the letter "v" occurs in combined_string
+# v = combined_string.count("v")
+
+# 10. Create a variable called e and set it equal to the number of times the letter "e" occurs in combined_string
+# e = combined_string.count("e")
+
+# 11. Create a variable called love and set it equal to the sum of l, o, v, e
+# love = l + o + v + e
+
+# 12. Create a variable called love_score and set it equal to the concatenation of the strings "Your score is " and the
+# string version of the variable love_score (e.g. love_score should be a string, not an integer)
+# love_score = int(str(true) + str(love))
+
+# 13. If the love score is less than 10 or greater than 90, print "Your score is **x**, you go together like coke and
+# mentos."
+# if (love_score < 10) or (love_score > 90):
+#   print(f"Your score is {love_score}, you go together like coke and mentos.")
+# 14. Else if the love score is between 40 and 50, print "Your score is **y**, you are alright together."
+# elif (love_score >= 40) and (love_score <= 50):
+# print(f"Your score is {love_score}, you are alright together.")
+# 15. Otherwise, print "Your score is **z**."
+# else:
+# print(f"Your score is {love_score}.")
+
+# Solution2
+
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+# Write your code below this line 👇
+# 1. Create a variable called combined_string
+# and set it equal to lower case version of name1 + name2
+
+combined_string = name1.lower() + name2.lower()
+
+# 2. Create a variable called t and set it equal to the number of times the letter "t" occurs in combined_string
+# 3. Create a variable called r and set it equal to the number of times the letter "r" occurs in combined_string
+# 4. Create a variable called u and set it equal to the number of times the letter "u" occurs in combined_string
+# 5. Create a variable called e and set it equal to the number of times the letter "e" occurs in combined_string
+# 6. Create a variable called true and set it equal to the sum of t, r, u, e
+
+true = combined_string.count("t") + combined_string.count("r") + combined_string.count("u") + combined_string.count("e")
+
+# 7. Create a variable called l and set it equal to the number of times the letter "l" occurs in combined_string
+# 8. Create a variable called o and set it equal to the number of times the letter "o" occurs in combined_string
+# 9. Create a variable called v and set it equal to the number of times the letter "v" occurs in combined_string
+# 10. Create a variable called e and set it equal to the number of times the letter "e" occurs in combined_string
+# 11. Create a variable called love and set it equal to the sum of l, o, v, e
+
+love = combined_string.count("l") + combined_string.count("o") + combined_string.count("v") + combined_string.count("e")
+
+# 12. Create a variable called love_score and set it equal to the concatenation of the strings "Your score is " and the
+# string version of the variable love_score (e.g. love_score should be a string, not an integer)
+
+love_score = int(str(true) + str(love))
+
+if (love_score < 10) or (love_score > 90):
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif (love_score >= 40) and (love_score <= 50):
+    print(f"Your score is {love_score}, you are alright together.")
+else:
+    print(f"Your score is {love_score}.")
