@@ -1,4 +1,4 @@
-# ## Inputs
+# ## Inputs Function
 #
 # # UPDATE
 # We've moved away from repl.it for coding exercises.
