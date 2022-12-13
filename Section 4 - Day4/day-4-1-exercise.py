@@ -28,9 +28,9 @@
 
 import random
 
-random_number = random.randint(0, 1)
+random_side = random.randint(0, 1)
 
-if random_number == 1:
+if random_side == 1:
     print("Heads")
 else:
     print("Tails")
