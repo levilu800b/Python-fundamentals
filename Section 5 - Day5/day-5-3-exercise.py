@@ -14,3 +14,8 @@
 # Check your code is doing what it is supposed to. When you're happy with your code, click submit to check your solution.
 
 # Write your code below this row 👇
+
+total = 0
+for number in range(2, 101, 2):
+    total += number
+print(total)
