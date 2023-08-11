@@ -6,6 +6,14 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "Colorado", "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah",
                      "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
+# states_of_america[1] = "Pencilvania"
+
+# states_of_america.append("leviK")
+
+# states_of_america.extend("Meron", "Anosh", )
+
+# states_of_america.insert(1, "Pencilvania")
+
 print(states_of_america)
 
 
