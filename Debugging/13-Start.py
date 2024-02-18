@@ -35,7 +35,7 @@
 # pages = int(input("Number of pages: "))
 # word_per_page = int(input("Number of words per page: "))
 # total_words = pages * word_per_page
-# # Always use print to check your codeand see what is going on in your code at
+# # Always use print to check your code and see what is going on in your code at
 # # a particular point in time to see if it is working as expected. And for
 # # debugging.
 # print(f"pages = {pages}")
